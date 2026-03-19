@@ -42,6 +42,9 @@ Run /run-agent/{lead_id}
 Agent:
 
 Qualifies lead
+
 Writes email
+
 Sends via SES
+
 Updates status
