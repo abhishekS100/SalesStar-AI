@@ -1,5 +1,5 @@
 # SalesStar-AI
-Real-Time Sales Automation
+**Real-Time Sales Automation**
 
 --> An Agentic AI Sales Assistant that can:
 
@@ -11,7 +11,7 @@ Real-Time Sales Automation
 
 * Act autonomously via tools (agent behavior)
 
-🧠 Architecture : Core Components
+**🧠 Architecture : Core Components**
 
 AWS Bedrock → LLM (Claude, Titan, etc.)
 
@@ -25,21 +25,21 @@ SES → Send emails
 
 Lambda (optional) → Serverless execution
 
-⚙️ Install Dependencies
+**⚙️ Install Dependencies**
 
 pip install fastapi uvicorn boto3 pydantic
 
-🔑 AWS Setup
+**🔑 AWS Setup**
 
 Make sure you configure:
 
 aws configure
 
-▶️ Run the App
+**▶️ Run the App**
 
 uvicorn app:app --reload
 
-🔁 Example Flow
+**🔁 Example Flow**
 
 POST /lead
 
