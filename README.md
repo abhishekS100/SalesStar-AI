@@ -10,6 +10,7 @@
 * Generate personalized outreach emails/messages
 
 * Act autonomously via tools (agent behavior)
+  
 
 **🧠 Architecture : Core Components**
 
@@ -25,9 +26,11 @@ SES → Send emails
 
 Lambda (optional) → Serverless execution
 
+
 **⚙️ Install Dependencies**
 
 pip install fastapi uvicorn boto3 pydantic
+
 
 **🔑 AWS Setup**
 
@@ -35,9 +38,11 @@ Make sure you configure:
 
 aws configure
 
+
 **▶️ Run the App**
 
 uvicorn app:app --reload
+
 
 **🔁 Example Flow**
 
